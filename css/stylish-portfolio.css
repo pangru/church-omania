@@ -14,7 +14,7 @@ body {
 }
 
 body {
-    font-family: "Raleway",Helvetica,Arial,sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 /*
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -22,8 +22,24 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-weight: 500;
 }
 */
-.jumbotron h1, .jumbotron h1 {
-    text-shadow: 4px 3px 0 #1d9d74, 9px 8px 0 rgba(0,0,0,0.15);
+@media (max-width: 767px) {
+  .jumbotron-title h1 {
+    font-size: 39px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .jumbotron-title h1 {
+    font-size: 63px;
+  }
+}
+@media (min-width: 1200px) {
+  .jumbotron-title h1 {
+    font-size: 90px;
+  }
+}
+.jumbotron-title h1, .jumbotron-title .h1 {
+    text-shadow: 4px 3px 0 #FBF2F6, 9px 8px 0 rgba(0,0,0,0.15);
+    letter-spacing: -1px;
 }
 
 .text-vertical-center {
@@ -35,7 +51,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .text-vertical-center h1 {
     margin: 0;
     padding: 0;
-    font-size: 4.5em;
+/*    font-size: 4.5em; */
     font-weight: 700;
 }
 
