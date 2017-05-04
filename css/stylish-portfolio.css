@@ -14,7 +14,16 @@ body {
 }
 
 body {
-    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Raleway",Helvetica,Arial,sans-serif;
+}
+/*
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: museo-slab,Georgia,"Times New Roman",Times,serif;
+  font-weight: 500;
+}
+*/
+.jumbotron h1, .jumbotron h1 {
+    text-shadow: 4px 3px 0 #1d9d74, 9px 8px 0 rgba(0,0,0,0.15);
 }
 
 .text-vertical-center {
